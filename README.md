@@ -1,34 +1,39 @@
-# ECG-CLIP
+# ECG-CLIP Repository
 
-Welcome to the ECG-CLIP repository! This repository is part of the ECG-CLIP project, which aims to enhance ECG analysis using the CLIP framework.
+[![arXiv](https://img.shields.io/badge/arXiv-2605.25446-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2605.25446)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
-## About the Project
+This repository hosts two independent ECG research projects. They are kept in
+separate directories and do not depend on each other.
 
-**ECG-CLIP** is a comprehensive project that includes two main phases:
+| Project | Description | Documentation |
+|:--|:--|:--:|
+| **ECG-CLIP** | Signal-language foundation-model pretraining and downstream evaluation for broad-spectrum cardiovascular assessment. | [Open project](ECG-CLIP/README.md) |
+| **VHD-Survival** | A separate project for ECG-based prognosis modeling in valvular heart disease. | [Open project](VHD-Survival/README.md) |
 
-1. **Pretraining Phase**: Utilizing the CLIP framework for training a foundation model on ECG signal-text paired data.
-2. **Downstream Task Fine-Tuning**: Fine-tuning the pretrained models for various tasks, including:
-   - **ECG Disease Diagnosis**
-   - **Echocardiogram Disease Diagnosis**
-   - **Prognosis Analysis** (currently released)
+## ECG-CLIP
 
-At this stage, only the **prognosis analysis** code is released. This code aims to predict patient outcomes based on ECG data, and it forms a critical part of the downstream fine-tuning tasks. The full ECG-CLIP codebase, including pretraining and other downstream tasks, will be released at a later time.
+The [`ECG-CLIP/`](ECG-CLIP/) directory contains the official source-code
+release for:
 
-## Features
+> **A Signal-Language Foundation Model for Broad-Spectrum Cardiovascular Assessment from Routine Electrocardiography**
 
-- **Prognosis Analysis**: Models and tools for analyzing ECG data to predict prognosis.
-- **Modular Codebase**: Code is organized to facilitate future expansions, including pretraining and additional downstream tasks.
-- **Documentation**: Basic usage instructions to get started with prognosis analysis code.
+- Paper: [arXiv:2605.25446](https://arxiv.org/abs/2605.25446)
+- Included: contrastive pretraining, ECGCLIP-R34 fine-tuning, internal
+  evaluation, and rare-disease SVM evaluation.
+- Planned: author-pretrained ECGCLIP-R18, ECGCLIP-R34, and ECGCLIP-R50
+  checkpoints will be released after paper acceptance.
 
-## Future Releases
+For installation, data conventions, model release status, and experiment
+instructions, see the [ECG-CLIP documentation](ECG-CLIP/README.md).
 
-The complete ECG-CLIP repository, including pretraining code and other downstream tasks (such as ECG and echocardiogram disease diagnosis), will be released in the future. Please stay tuned for updates!
+## VHD-Survival
 
-## Usage
-
-For detailed usage instructions related to **Prognosis Analysis**, please refer to the [README of the VHD-Survival directory](https://github.com/dt-yuhui/ECG-CLIP/blob/main/VHD-Survival/README.md). This includes all the steps, commands, and configuration options required to run the prognosis analysis code.
-
+The existing [`VHD-Survival/`](VHD-Survival/) directory is retained as an
+independent project. Its training and prediction instructions are available in
+the [VHD-Survival documentation](VHD-Survival/README.md).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The repository-level license is available in [LICENSE](LICENSE). Individual
+subdirectories may also contain project-specific notices.
