@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="118" viewBox="0 0 880 118" role="img" aria-labelledby="title desc"><title id="title">CardioLoom</title><desc id="desc">An ECG trace interwoven with parallel threads beside the CardioLoom name.</desc>
+<rect width="880" height="118" rx="16" fill="#102b41"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M26 48h17c12 0 14 23 26 23s17-25 28-25h27M26 80h18c12 0 15-23 28-23s16 17 29 17h23" stroke="#538399" stroke-width="3"/>
+<path d="M26 64h23l7-8 6 10 9-36 11 56 9-22h33" stroke="#5ee3cd" stroke-width="4"/></g>
+<text x="153" y="77" fill="white" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="55">CardioLoom</text>
+<path d="M635 76h45l10-7 9 11 14-37 12 52 12-20h34l9-5 9 6h66" fill="none" stroke="#305266" stroke-width="2" stroke-linejoin="round"/>
+</svg>

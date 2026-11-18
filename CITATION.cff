@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the CardioLoom research code."
+title: "CardioLoom: A Report-Guided Electrocardiogram Foundation Model for Cross-Domain Cardiovascular Phenotyping"
+authors:
+  - name: "CardioLoom authors"
+type: software
+url: "https://arxiv.org/abs/2605.25446"
+repository-code: "https://github.com/dt-yuhui/CardioLoom"

@@ -1,0 +1,15 @@
+# Core research environment. Choose the correct CPU/CUDA PyTorch build separately.
+torch==2.3.0
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.13.1
+h5py==3.12.1
+scikit-learn==1.5.0
+omegaconf==2.0.5
+hydra-core==1.0.4
+tensorboard==2.21.0
+einops==0.8.2
+tqdm==4.70.0
+transformers==4.41.1
+tokenizers==0.19.1
+matplotlib==3.9.4
