@@ -1,0 +1,90 @@
+task,abbreviation,clinical_tier,clinical_category,clinical_order
+ecg_label_43,OMI,routine_ecg,Ischemia,0
+ecg_label_44,STEMI,routine_ecg,Ischemia,1
+ecg_label_1,NSR,routine_ecg,Arrhythmia,2
+ecg_label_3,SBrad,routine_ecg,Arrhythmia,3
+ecg_label_2,STach,routine_ecg,Arrhythmia,4
+ecg_label_19,VPB,routine_ecg,Arrhythmia,5
+ecg_label_6,APB,routine_ecg,Arrhythmia,6
+ecg_label_4,SArr,routine_ecg,Arrhythmia,7
+ecg_label_8,AF,routine_ecg,Arrhythmia,8
+ecg_label_9,AFL,routine_ecg,Arrhythmia,9
+ecg_label_13,JPB,routine_ecg,Arrhythmia,10
+ecg_label_14,AJR,routine_ecg,Arrhythmia,11
+ecg_label_7,ATach,routine_ecg,Arrhythmia,12
+ecg_label_15,JTach,routine_ecg,Arrhythmia,13
+ecg_label_16,JEB,routine_ecg,Arrhythmia,14
+ecg_label_18,SVT,routine_ecg,Arrhythmia,15
+ecg_label_24,VEB,routine_ecg,Arrhythmia,16
+ecg_label_21,VTach,routine_ecg,Arrhythmia,17
+ecg_label_33,RBBB,routine_ecg,Conduction,18
+ecg_label_27,1° AVB,routine_ecg,Conduction,19
+ecg_label_53,QT Prolong,routine_ecg,Conduction,20
+ecg_label_57,ER,routine_ecg,Conduction,21
+ecg_label_34,LAFB,routine_ecg,Conduction,22
+ecg_label_32,LBBB,routine_ecg,Conduction,23
+ecg_label_36,IVB,routine_ecg,Conduction,24
+ecg_label_11,Short PR,routine_ecg,Conduction,25
+ecg_label_17,VPE,routine_ecg,Conduction,26
+ecg_label_31,3° AVB,routine_ecg,Conduction,27
+ecg_label_28,2° 1 Type AVB,routine_ecg,Conduction,28
+ecg_label_29,2° 2 Type AVB,routine_ecg,Conduction,29
+ecg_label_41,LVH,routine_ecg,Structure,30
+ecg_label_38,LAH,routine_ecg,Structure,31
+ecg_label_42,RVH,routine_ecg,Structure,32
+ecg_label_45,VA,routine_ecg,Structure,33
+ecg_label_39,RAH,routine_ecg,Structure,34
+ecg_label_58,DC,routine_ecg,Structure,35
+ecg_label_40,BVH,routine_ecg,Structure,36
+ecg_label_48,VVI,routine_ecg,Pacing,37
+ecg_label_46,VAT,routine_ecg,Pacing,38
+ecg_label_49,DDD,routine_ecg,Pacing,39
+ecg_label_47,AAI,routine_ecg,Pacing,40
+ecg_label_51,VP,routine_ecg,Pacing,41
+ecg_label_52,PSM,routine_ecg,Pacing,42
+ecg_label_55,HK,routine_ecg,Electrolyte abnormality,43
+ecg_label_56,LK,routine_ecg,Electrolyte abnormality,44
+echo_label_6,NER,echo_derived,Normal,45
+echo_label_15,LAE,echo_derived,Myocardial,46
+echo_label_29,HCM,echo_derived,Myocardial,47
+echo_label_28,nHCM,echo_derived,Myocardial,48
+echo_label_17,BAE,echo_derived,Myocardial,49
+lvef_label,HFrEF,echo_derived,Myocardial,50
+echo_label_13,RMWSSFLV,echo_derived,Myocardial,51
+echo_label_25,DCM,echo_derived,Myocardial,52
+echo_label_27,oHCM,echo_derived,Myocardial,53
+echo_label_24,ICM,echo_derived,Myocardial,54
+echo_label_26,LVDD,echo_derived,Myocardial,55
+echo_label_22,VA,echo_derived,Myocardial,56
+echo_label_16,RAE,echo_derived,Myocardial,57
+echo_label_11,AM,echo_derived,Myocardial,58
+echo_label_10,LAM,echo_derived,Myocardial,59
+echo_label_21,AVC,echo_derived,Valvular,60
+TR,TR,echo_derived,Valvular,61
+MR,MR,echo_derived,Valvular,62
+AR,AR,echo_derived,Valvular,63
+echo_label_19,MVPLAC,echo_derived,Valvular,64
+MS,MS,echo_derived,Valvular,65
+AS,AS,echo_derived,Valvular,66
+echo_label_18,BAV,echo_derived,Valvular,67
+PS,PS,echo_derived,Valvular,68
+echo_label_9,EA,echo_derived,Valvular,69
+PR,PR,echo_derived,Valvular,70
+TS,TS,echo_derived,Valvular,71
+echo_label_1,CHD,echo_derived,Shunt,72
+echo_label_2,ASD,echo_derived,Shunt,73
+echo_label_3,VSD,echo_derived,Shunt,74
+echo_label_7,PFO,echo_derived,Shunt,75
+echo_label_4,PDA,echo_derived,Shunt,76
+echo_label_8,TOF,echo_derived,Shunt,77
+echo_label_12,PH,echo_derived,Vessel,78
+echo_label_5,AD,echo_derived,Vessel,79
+echo_label_14,Dex,echo_derived,Vessel,80
+echo_label_20,PE,echo_derived,Pericardial,81
+echo_label_23,CP,echo_derived,Pericardial,82
+af_label,AF,echo_derived,Arrhythmia,83
+ecg_label_74,CA,rare_disease,-,84
+ecg_label_71,ARVC,rare_disease,-,85
+ecg_label_63,TC,rare_disease,-,86
+ecg_label_73,AC,rare_disease,-,87
+ecg_label_65,NCVM,rare_disease,-,88
